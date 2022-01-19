@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_company_company_vision_missions",
+  "info": {
+    "displayName": "CompanyVisionMission",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "vision": {
+      "type": "richtext"
+    },
+    "mission": {
+      "type": "richtext"
+    },
+    "founderImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_general_social_medias",
+  "info": {
+    "displayName": "Social Media",
+    "icon": "comments"
+  },
+  "options": {},
+  "attributes": {
+    "platform": {
+      "type": "enumeration",
+      "enum": [
+        "instagram",
+        "whatsapp",
+        "tiktok",
+        "email",
+        "phone",
+        "youtube",
+        "twitch",
+        "github",
+        "linkedin",
+        "facebook"
+      ]
+    },
+    "url": {
+      "type": "text"
+    }
+  }
+}

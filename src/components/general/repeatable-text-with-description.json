@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_general_repeatable_text_with_descriptions",
+  "info": {
+    "displayName": "Text Description",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

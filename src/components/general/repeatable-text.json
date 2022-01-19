@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_general_repeatable_texts",
+  "info": {
+    "displayName": "Text",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}
