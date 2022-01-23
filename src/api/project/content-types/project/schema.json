@@ -50,9 +50,9 @@
     "youtubeUrl": {
       "type": "string"
     },
-    "service": {
+    "services": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "manyToMany",
       "target": "api::service.service",
       "inversedBy": "projects"
     },
