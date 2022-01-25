@@ -66,6 +66,9 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::testimonial.testimonial"
+    },
+    "subtitle": {
+      "type": "text"
     }
   }
 }

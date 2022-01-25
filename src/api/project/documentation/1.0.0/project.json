@@ -2398,6 +2398,9 @@
                                                               }
                                                             }
                                                           },
+                                                          "subtitle": {
+                                                            "type": "string"
+                                                          },
                                                           "createdAt": {
                                                             "type": "string",
                                                             "format": "date-time"
@@ -2537,6 +2540,9 @@
                                     }
                                   }
                                 }
+                              },
+                              "subtitle": {
+                                "type": "string"
                               },
                               "createdAt": {
                                 "type": "string",
@@ -5245,6 +5251,9 @@
                                                             }
                                                           }
                                                         },
+                                                        "subtitle": {
+                                                          "type": "string"
+                                                        },
                                                         "createdAt": {
                                                           "type": "string",
                                                           "format": "date-time"
@@ -5384,6 +5393,9 @@
                                   }
                                 }
                               }
+                            },
+                            "subtitle": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -8013,6 +8025,9 @@
                                                             }
                                                           }
                                                         },
+                                                        "subtitle": {
+                                                          "type": "string"
+                                                        },
                                                         "createdAt": {
                                                           "type": "string",
                                                           "format": "date-time"
@@ -8152,6 +8167,9 @@
                                   }
                                 }
                               }
+                            },
+                            "subtitle": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -10769,6 +10787,9 @@
                                                             }
                                                           }
                                                         },
+                                                        "subtitle": {
+                                                          "type": "string"
+                                                        },
                                                         "createdAt": {
                                                           "type": "string",
                                                           "format": "date-time"
@@ -10908,6 +10929,9 @@
                                   }
                                 }
                               }
+                            },
+                            "subtitle": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -11209,6 +11233,9 @@
                           }
                         ],
                         "example": "string or id"
+                      },
+                      "subtitle": {
+                        "type": "string"
                       },
                       "createdAt": {
                         "type": "string",

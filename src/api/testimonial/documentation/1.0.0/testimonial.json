@@ -1627,6 +1627,9 @@
                                                             }
                                                           }
                                                         },
+                                                        "subtitle": {
+                                                          "type": "string"
+                                                        },
                                                         "createdAt": {
                                                           "type": "string",
                                                           "format": "date-time"
@@ -3685,6 +3688,9 @@
                                                           }
                                                         }
                                                       },
+                                                      "subtitle": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -5706,6 +5712,9 @@
                                                           }
                                                         }
                                                       },
+                                                      "subtitle": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -7672,6 +7681,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "subtitle": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",

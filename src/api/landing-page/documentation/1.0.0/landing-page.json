@@ -2484,6 +2484,9 @@
                                                 }
                                               }
                                             },
+                                            "subtitle": {
+                                              "type": "string"
+                                            },
                                             "createdAt": {
                                               "type": "string",
                                               "format": "date-time"
@@ -2574,6 +2577,23 @@
                                         }
                                       }
                                     }
+                                  }
+                                }
+                              },
+                              "statistic": {
+                                "type": "object",
+                                "properties": {
+                                  "id": {
+                                    "type": "string"
+                                  },
+                                  "clients": {
+                                    "type": "integer"
+                                  },
+                                  "projects": {
+                                    "type": "integer"
+                                  },
+                                  "connections": {
+                                    "type": "integer"
                                   }
                                 }
                               },
@@ -5370,6 +5390,9 @@
                                               }
                                             }
                                           },
+                                          "subtitle": {
+                                            "type": "string"
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -5460,6 +5483,23 @@
                                       }
                                     }
                                   }
+                                }
+                              }
+                            },
+                            "statistic": {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "string"
+                                },
+                                "clients": {
+                                  "type": "integer"
+                                },
+                                "projects": {
+                                  "type": "integer"
+                                },
+                                "connections": {
+                                  "type": "integer"
                                 }
                               }
                             },
@@ -5781,6 +5821,20 @@
                             }
                           ],
                           "example": "string or id"
+                        }
+                      },
+                      "statistic": {
+                        "type": "object",
+                        "properties": {
+                          "clients": {
+                            "type": "integer"
+                          },
+                          "projects": {
+                            "type": "integer"
+                          },
+                          "connections": {
+                            "type": "integer"
+                          }
                         }
                       },
                       "createdAt": {

@@ -39,6 +39,11 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::testimonial.testimonial"
+    },
+    "statistic": {
+      "type": "component",
+      "repeatable": false,
+      "component": "company.statistic"
     }
   }
 }
